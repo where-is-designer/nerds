@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.visually-hidden{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.main-header{
+    background-color: #eee;
+
+}
+
+.main-header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-list{
+    list-style: none;
+    display: flex;
+}
+
+.navigation-item{
+    margin-right: 45px;
+}
+
+.navigation-item:last-child{
+    margin-right: 0;
+}
+
+.navigation-item a, .user-list a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+    text-decoration:none;
+    
+    text-transform: uppercase;
+}
+
+.user-list{
+    list-style: none;
+    display: flex;
+}
+
+.slider {
+    background-color: #eee;
+
+}
+
+.slider-item{
+    padding: 80px 0;
+}
+
+.slider-title{
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+    margin: 0;
+    margin-bottom: 25px;
+
+}
+
+.slider-text{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 40px;
+
+}
+
+.btn{
+    color: #eee;
+    border-radius: 3px;
+    padding: 15px 40px;
+    display: inline-block;
+    background: #FB565A;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.btn_big{
+    padding: 15px 55px;
+}
+
+.slider-item-1{
+    background-image: url(../img/slide1.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0 ;
+}
+
+.slider--wrapper{
+    width: 540px;
+
+}
+
+
+.services-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+
+}
+
+.services-item{
+    width: 300px;
+}
+
+.btn_2{
+    background: #00CA74;
+    
+}
+
+.btn_3{
+    background: #EFC849;
+
+}
+
+.services-item img{
+    margin-bottom: 25px;
+}
+
+.sevices-item h2{
+    margin: 0;
+    margin-bottom: 15px;
+
+    font-weight: bold;
+    font-style: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+}
+
+.services-item p{
+    margin: 0;
+    margin-bottom: 30px;
+
+}
